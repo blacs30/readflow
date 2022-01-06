@@ -31,7 +31,7 @@ RUN rm -rf /etc/nginx/conf.d
 COPY etc/nginx/conf.d /etc/nginx/conf.d
 
 # Port
-EXPOSE 80
+EXPOSE 8080
 
 # Entrypoint
 CMD ["nginx", "-g", "daemon off;"]
