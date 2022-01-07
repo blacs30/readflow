@@ -1,5 +1,5 @@
 // API base URL
-export const API_BASE_URL = process.env.REACT_APP_API_ROOT || 'https://readflow-api.lisowski-development.com'
+export const API_BASE_URL = process.env.REACT_APP_API_ROOT || 'https://readflow-api.lisowski-development.de'
 
 // OIDC authority URL
 export const AUTHORITY = process.env.REACT_APP_AUTHORITY || 'https://gitlab.com'

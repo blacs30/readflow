@@ -7,7 +7,7 @@ FROM node:lts-alpine AS builder
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
-ENV REACT_APP_API_ROOT https://readflow-api.lisowski-development.com
+ENV REACT_APP_API_ROOT https://readflow-api.lisowski-development.de
 
 # Install dependencies
 COPY package.json /usr/src/app/package.json
