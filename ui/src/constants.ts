@@ -5,8 +5,7 @@ export const API_BASE_URL = process.env.REACT_APP_API_ROOT || 'https://readflow-
 export const AUTHORITY = process.env.REACT_APP_AUTHORITY || 'mock'
 
 // OIDC client ID
-export const CLIENT_ID =
-  process.env.REACT_APP_CLIENT_ID || 'webapp'
+export const CLIENT_ID = process.env.REACT_APP_CLIENT_ID || 'webapp'
 
 // Unauthenticated user redirect
 export const REDIRECT_URL = process.env.REACT_APP_REDIRECT_URL || '/login'
